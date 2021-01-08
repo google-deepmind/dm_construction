@@ -36,7 +36,7 @@ setup(
     install_requires=[
         "absl-py",
         "dm_env",
-        "dm_env_rpc",
+        "dm_env_rpc==1.0.2",
         "docker",
         "grpcio",
         "numpy",
@@ -45,7 +45,7 @@ setup(
         "setuptools",
         "shapely",
     ],
-    extras_require={"demos": ["matplotlib"]},
+    extras_require={"demos": ["matplotlib", "jupyter"]},
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
