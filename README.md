@@ -80,7 +80,7 @@ options for how to install ffmpeg:
 Next, run the following command to install a few additional dependencies:
 
 ```
-pip install .[demos]
+pip install ".[demos]"
 ```
 
 ## Troubleshooting
